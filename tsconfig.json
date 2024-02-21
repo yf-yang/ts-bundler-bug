@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": false,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "sourceMap": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+    "target": "esnext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declarationMap": true,
+    "extendedDiagnostics": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "Bundler"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
