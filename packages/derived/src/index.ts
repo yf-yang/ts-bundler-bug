@@ -1,9 +1,7 @@
 import type { Generic, InterFaceB, InterFaceC } from "base";
 
-function foo(): Generic<InterFaceB> {
-  return {
-    something: 1,
-  };
+function foo(x: Generic<InterFaceB>): number {
+  return x.something;
 }
 
 function bar(): Generic<InterFaceC> {
@@ -11,3 +9,6 @@ function bar(): Generic<InterFaceC> {
     something: 1,
   };
 }
+
+void foo;
+void bar;

@@ -18,7 +18,8 @@
     "declarationMap": true,
     "extendedDiagnostics": true,
     "jsx": "react-jsx",
-    "moduleResolution": "Bundler"
+    "moduleResolution": "Bundler",
+    "composite": true
   },
   "exclude": [
     "node_modules"
